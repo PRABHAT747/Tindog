@@ -1,0 +1,116 @@
+
+.container{
+    
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 1px #666; 
+    
+}
+ 
+.top{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#like{
+    padding:25px;
+    max-width: 91px;
+    max-height: 91px;
+    width: 35px;
+    height: 30px;
+}
+#dislike{
+    padding:25px;
+    max-width: 91px;
+    max-height: 91px;
+    width: 35px;
+    height: 30px;
+}
+.like , .dislike{ 
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 1px #666; 
+}
+#chat {
+    width: 34px;
+    height: 34px;
+
+}
+#paw{
+    width: 84px;
+    height: 42px;
+   
+}
+#profile{
+    width: 32px;
+    height: 34px; 
+}
+#profilecontent{
+    position: relative;
+   
+    border-radius: 2%;
+    width: 500px;
+    height: 550px;
+    background-size: cover;
+}
+#bio{
+    margin: 0;
+    color: white;
+    text-shadow: -3px 1px 4px black;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+#name{
+    text-shadow: -3px 2px 4px black;
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.button-container{
+        padding: 15px;
+        display: flex;
+        margin: 0 150px;
+        gap: 8%;
+    }
+#info{
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    
+}
+p{
+    margin:0px;
+}
+.choice ,.likee,.nopee{
+    border-radius: 0%;
+    width: 260px;
+   
+    height: 218px;
+   
+    
+}
+
+.nopee{
+    background-image: url("icons/big-nope.png");
+}
+.likee{
+    background-image: url("icons/big-like.png");
+}
+.bye{
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+  
+}
+.bye{
+    border: 1px solid green;
+    display: block;
+    margin-top: 250px;
+}
+    
